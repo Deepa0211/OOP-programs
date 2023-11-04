@@ -7,7 +7,7 @@ class Atm():
     balance = 0
     
     # card activation
-    def activate_card(self):
+    def __init__(self):
         print("Hi!! Welcome to SBI ATM")
         self.pin = input("Create a 4 digit pin ")
         
